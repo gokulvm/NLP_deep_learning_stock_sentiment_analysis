@@ -47,7 +47,7 @@ def main():
     if st.button("About"):
         st.text("This model can predict stock price increase or decrease based on the News headlines")
         st.text("Used Algorithm : Multinomial Naive Bayes")
-        st.text("Accuracy : 84s%")
+        st.text("Accuracy : 84%")
         link = '[Code](https://github.com/gokulvm/NLP_deep_learning_stock_sentiment_analysis)'
         st.markdown(link, unsafe_allow_html=True)
        
